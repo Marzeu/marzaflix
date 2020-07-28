@@ -1,2 +1,2 @@
 # marzaflix
-Imersão React Alura
+Projeto da Imersão Alura
