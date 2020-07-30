@@ -17,7 +17,7 @@ function PageDefault({ children }) {
         <>
             <Menu />
             <Main>
-                {children};
+                {children}
             </Main>
             <Footer />
         </>
