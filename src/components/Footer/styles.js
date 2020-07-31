@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 
-
-export const FooterBase = styled.footer`
+const FooterBase = styled.footer`
   background: var(--black);
   border-top: 2px solid var(--primary);
   padding-left: 16px;
@@ -10,7 +9,16 @@ export const FooterBase = styled.footer`
   padding-bottom: 32px;
   color: var(--white);
   text-align: center;
+
+  .redes {
+    height: 35px;
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+
   @media (max-width: 800px) {
     margin-bottom: 50px;
-  }
+    }
 `;
+
+export default FooterBase;
