@@ -32,34 +32,13 @@ function CadastroCategoria() {
     const URL = 'http://localhost:8080/categorias';
 
     fetch(URL)
-    .then((res) => {
-      const resposta = await res.json();
-      console.log(resposta, res, res.body, res.json());
-      
-    })
-  }
-    
-
-  
-
-  //   setTimeout(() => {
-  //     setCategorias([
-  //       ...categorias,
-  //       {
-  //         id: 1,
-  //         nome: 'Front End',
-  //         descrição: 'Uma categoria show',
-  //         cor: '#cbd1ff',
-  //       },
-  //       {
-  //         id: 2,
-  //         nome: 'Back End',
-  //         descrição: 'Outra categoria show',
-  //         cor: '#cbd1ff',
-  //       },
-  //     ]);
-  //   }, 5000);
-  // }, []);
+      .then(async (res) => {
+        const resposta = await res.json();
+        setCategorias([
+          ...resposta,
+        ]);
+      });
+  }, []);
 
   return (
     <PageDefault>
