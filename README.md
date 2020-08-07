@@ -6,7 +6,7 @@ Projeto Imersão Alura React
 <img alt="Made by Marzeu Selau Junior" src="https://img.shields.io/badge/made%20by-Marzeu%20Selau%20Junior-%2304D361"></a>
 <a href="https://github.com/Marzeu/marzaflix/commits/master">
 <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Marzeu/marzaflix"></a>  
-<img alt="Completed" src="https://img.shields.io/badge/Imersão%20React%20Alura%20-in%20process-7159c1"></img>  
+<img alt="Completed" src="https://img.shields.io/badge/Imersão%20React%20Alura%20-Completed-7159c1"></img>  
 <img alt="License" src="https://img.shields.io/github/license/Marzeu/marzaflix?color=blue">
 </p>
 
